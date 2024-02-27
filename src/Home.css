@@ -1,0 +1,167 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img{
+    height: 5rem;
+    margin: 1rem;
+}
+
+.title{
+    margin:0;
+    padding:0;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Lucida Sans Unicode';
+}
+
+.desc{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px){
+    .navbar img{
+        height: 3rem;
+        margin: 0.5rem;
+    }
+    .title{
+        font-size: medium;
+    }
+    .desc{
+        font-size: small;
+    }
+}
+
+
+.main{
+    display: flex;
+    gap: 8rem;
+}
+
+.trophy{
+    height: 30rem;
+    margin-top: 5rem;
+}
+
+.photo{
+    height: 20rem;
+    width: 55rem;
+}
+
+.maindiv{
+    /* border: 2px solid black; */
+    width: 50rem;
+     
+}
+
+@media screen and (max-width: 1024px){
+    .photo{
+        height: 15rem;
+        width: 35rem;
+    }
+    .trophy{
+        height: 25rem;
+        margin-top: 6rem;
+    }
+    .maindiv{
+        width: 35rem;
+    }
+    .main{
+        gap:6rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .photo{
+        height: 15rem;
+        width: 25rem;
+    }
+    .trophy{
+        height: 20rem;
+        margin-top: 5rem;
+    }
+    .maindiv{
+        width: 30rem;
+    }
+    .main{
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .photo{
+        height: 15rem;
+        width: 20rem;
+    }
+    .trophy{
+        height: 20rem;
+        margin-top: 15rem;
+    }
+    .maindiv{
+        width: 25rem;
+    }
+}
+
+.twomain{
+    /* width: 100vh; */
+    /* border: 2px solid black; */
+}
+.twomain img{
+    width: 45rem;
+}
+
+@media screen and (max-width: 425px){
+    .twomain img{
+        width: 20rem;
+    }
+    .twomain{
+        width: 35rem;
+    }
+}
+
+.threemain{
+    background-color: rgb(240, 18, 18);
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.call{
+    display: flex;
+}
+
+.call i{
+    margin-left: 0.5rem;
+}
+
+.facebook{
+    display: flex;
+}
+
+.website{
+    display: flex;
+}
+
+.website p{
+    margin-right: 0.5rem;
+}
+
+.threemain i{
+    margin-top: 1rem;
+    margin-right:0.5rem;
+}
+
+@media screen and (max-width: 425px){
+    .threemain{
+        width:36rem;
+    }
+    .footer{
+        width: 36rem;
+    }
+}
